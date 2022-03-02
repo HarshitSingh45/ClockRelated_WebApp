@@ -1,0 +1,58 @@
+body{
+    background-color: hsl(191deg 100% 92%);
+}
+#heading{
+    width: 80%;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, #abeaef, #e1b5dc);
+    text-align: center;
+    padding: 30px 0px;
+}
+h2{
+    color: #03a9f4;
+    text-align: center;
+    padding: 40px;
+}
+div input{
+    width: 30%;
+    font-size: 2rem;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 0px 2px 2px white;
+    border-color: white;
+    color: rgb(228, 21, 55);
+}
+div button{
+    width: 120px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: violet;
+    box-shadow: 0px 0px 2px 2px white;
+    border-color: violet;
+    color: white;
+    border-radius: 1.5rem;
+    margin-right: 10px;
+}
+#count-container{
+    width: 80%;
+    margin: auto;
+    background-color: grey;
+    text-align: center;
+    padding: 50px;
+}
+.timerbox{
+    display: inline-block;
+    width: 50px;
+    font-size: 3rem;
+    background-color: khaki;
+    margin-right: 10px;
+}
+#timedone{
+    color: white;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: none;
+}
