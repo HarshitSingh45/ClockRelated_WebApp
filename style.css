@@ -1,6 +1,7 @@
 body{
     background-color: hsl(191deg 100% 92%);
 }
+/* ........................heading............................. */
 #heading{
     width: 80%;
     margin: 20px auto;
@@ -13,17 +14,7 @@ h2{
     text-align: center;
     padding: 40px;
 }
-div input{
-    width: 30%;
-    font-size: 2rem;
-    text-align: right;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-    box-shadow: 0px 0px 2px 2px white;
-    border-color: white;
-    color: rgb(228, 21, 55);
-}
+/* ....................button...................... */
 div button{
     width: 120px;
     font-size: 2rem;
@@ -48,11 +39,4 @@ div button{
     font-size: 3rem;
     background-color: khaki;
     margin-right: 10px;
-}
-#timedone{
-    color: white;
-    margin-top: 20px;
-    font-size: 2rem;
-    font-weight: bold;
-    display: none;
 }

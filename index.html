@@ -8,22 +8,30 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Stopwatch heading -->
     <h1 style="text-align: center; color: coral;">STOPWATCH</h1>
     <div id="heading">
+        <!-- on clicking start button, it will start the Stopwatch -->
         <button id="btn">Start</button>
+        <!-- Once the stopwatch is started, you can play the stopwatch if paused -->
         <button id="play">Play</button>
+        <!-- pause button is to pause the stopwatch -->
         <button id="pause">Pause</button>
+        <!-- this button will stop the stopwatch -->
         <button id="stop">Stop</button>
     </div>
     
+    <!-- this div will display the stopwatch time -->
     <div id="count-container">
+        <!-- counter 3,4 is used to display seconds elapsed-->
         <div id="counter4" class="timerbox">0</div>
         <div id="counter3" class="timerbox">0</div> <span style="color: white; font-weight: bold; font-size: 3.5rem;">&nbsp; : &nbsp;</span>
+        <!-- counter 1,2 is used to display minutes elapsed -->
         <div id="counter2" class="timerbox">0</div>
         <div id="counter1" class="timerbox">0</div><br>
-        <div id="timedone">Time's Up. Bitch !!</div>
     </div>
     <div id="heading">
+        <!-- reset button will stop the stopwatch and sets time to 0 -->
         <button id="rst"> Reset </button>
     </div>
     <script src="script.js"></script>
