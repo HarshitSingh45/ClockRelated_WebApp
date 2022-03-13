@@ -1,7 +1,8 @@
 
 # StopWatch
 
-In this project, I've designed a website to display digital stopwatch. StopWatch contains all necessary feature which it requires. This project is made up only 3 languages (HTML, CSS, Vanilla JavaScript)
+In this project, I've designed a website to display digital stopwatch. StopWatch contains all necessary feature which it requires. This project is made up only 3 languages (HTML, CSS, Vanilla JavaScript).
+You can view this webpage on https://harshitsingh45.github.io/ClockRelated_WebApp/
 
 ## Features
 
