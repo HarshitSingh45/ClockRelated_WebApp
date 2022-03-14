@@ -59,7 +59,7 @@ function timer(){
     document.getElementById('counter3').textContent=0;
     document.getElementById('counter4').textContent=0;
     // this counter is used to increment seconds 
-    count=1;
+    count=1, count2 = 1, count3 = 1, count4 = 1;
     interval = setInterval(function(){
         if(!isPaused){
             maincount++;
@@ -75,7 +75,7 @@ function timer(){
         }  
     },1000);
 }
-count2=1;
+// count2=1;
 function timer2(){
     // so, when count2 becomes 6, means 60s has elapsed and we need to set seconds to be 0 and minute to be 1
     if(count2 == 6){
@@ -87,7 +87,7 @@ function timer2(){
     document.getElementById('counter2').textContent=count2;
     count2++;  
 }
-count3=1;
+// count3=1;
 // helps in displaying minutes elapsed
 function timer3(){
     if(count3>9){
@@ -100,7 +100,7 @@ function timer3(){
     document.getElementById('counter3').textContent=count3;
     count3++;
 }
-count4=1;
+// count4=1;
 // helps in displaying minutes elapsed
 function timer4(){
     if(count4 == 6){
